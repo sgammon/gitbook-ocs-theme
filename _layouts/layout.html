@@ -9,6 +9,7 @@
         <meta name="generator" content="GitBook {{ gitbook.version }}">
         {% if config.author %}<meta name="author" content="{{ config.author }}">{% endif %}
         {% if config.isbn %}<meta name="identifier" content="{{ config.isbn }}" scheme="ISBN">{% endif %}
+        <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Oxygen:400,700" rel="stylesheet">
         {% block style %}
             {% for resource in plugins.resources.css %}
                 {% if resource.url %}
